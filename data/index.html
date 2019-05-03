@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+		<title>ESP32 Webserver</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	
+	<header>
+		<h1>ESP32 Webserver</h1>
+	</header>
+
+	<body bgcolor="#111">
+
+		<form>
+		
+			<fieldset class="align-center">
+			
+				<legend>
+					GPIO Control:
+				</legend>
+				
+				<button class="btn1" style="vertical-align:middle" onclick="al()">
+					<span>
+						<a style="text-decoration:none" href="/on">
+							ON
+						</a>
+					</span>
+				</button>
+				
+				<button class="btn2" style="vertical-align:middle" onclick="al()">
+					<span>
+						<a style="text-decoration:none" href="/off">
+							OFF
+						</a>
+					</span>
+				</button>
+				
+			</fieldset>
+			
+		</form>
+		
+		<script>function al() {alert("Successfully signed in");}</script>
+		
+	</body>
+	
+</html>
